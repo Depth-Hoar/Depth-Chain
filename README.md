@@ -1,7 +1,9 @@
 Commands
 
-./target/release/node-template -dev   
+cargo build --release
 
-./target/release/node-template -dev -h 
+./target/release/node-template --dev   
+
+./target/release/node-template --dev -h 
 
 cargo check -p
